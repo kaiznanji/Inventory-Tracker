@@ -3,18 +3,19 @@ A simple inventory tracking website with basic CRUD functionality built in Node.
 
 ## Introduction
 
-[Backend](https://github.com/kaiznanji/Shopify-Challenge-2022/blob/main/backend): Built in Node.js the backend utilizes MongoDB to store inventory items with an item name, quantity, cost, and pre-selected tags. I have built a series of API calls that are able to view, create, edit, and delete inventory items, as well as filter and sort through them.
+[Backend](https://github.com/kaiznanji/Shopify-Challenge-2022/backend): Built in Node.js the backend utilizes MongoDB to store inventory items with an item name, quantity, cost, and pre-selected tags. I have built a series of API calls that are able to view, create, edit, and delete inventory items, as well as filter and sort through them.
 
-[Frontend](https://github.com/kaiznanji/Shopify-Challenge-2022/blob/main/frontend): Built in React the frontend utilizes Bootstrap to create a clean and easy to read interface.
+[Frontend](https://github.com/kaiznanji/Shopify-Challenge-2022/frontend): Built in React the frontend utilizes Bootstrap to create a clean and easy to read interface.
 
 <p align="center">
-  <img src="https://github.com/kaiznanji/Shopify-Challenge-2022/blob/main/images/frontend.png?raw=true",width=550,height=450/>
+  <img src="https://github.com/kaiznanji/Shopify-Challenge-2022/images/frontend.png?raw=true",width=550,height=450/>
 </p>
 
 
 ## Getting started
 
-Use the following link to ensure you have npm and node.js installed: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+Use the following link to ensure you have npm and node.js installed: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm.
+
 To test if you have successfully installed them run the following commands:
 
 ```bash
