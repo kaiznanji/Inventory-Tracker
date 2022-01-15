@@ -1,0 +1,47 @@
+###
+
+POST http://localhost:5000/inventory/create/
+Content-Type: application/json
+
+{
+    "name": "Banana",
+    "purchaseCost": 10,
+    "quantity": 100,
+    "tags": []
+}
+
+
+###
+
+POST http://localhost:5000/inventory/edit/
+Content-Type: application/json
+
+{ 
+    "_id": "61e1f8c6800c0c096ec0c052", 
+    "name": "Banana", 
+    "quantity": 100, 
+    "purchaseCost": "10", 
+    "tags": {"T365": true, "T366": false, "T367": false}
+    }
+
+
+###
+
+DELETE http://localhost:5000/inventory/delete/
+Content-Type: application/json
+
+{
+    "id": "61df6ddbafdaeb11996bec26"
+}
+
+
+###
+
+GET http://localhost:5000/inventory?regexName=Bana&minPrice=0
+Content-Type: application/json
+
+
+###
+
+DELETE http://localhost:5000/inventory/deleteDatabase/
+Content-Type: application/json
