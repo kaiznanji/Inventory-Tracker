@@ -8,7 +8,7 @@ A simple inventory tracking website with basic CRUD functionality built in Node.
 [Frontend](https://github.com/kaiznanji/Shopify-Challenge-2022/tree/master/frontend): Built in React the frontend utilizes Bootstrap to create a clean and easy to read interface.
 
 <p align="center">
-  <img src="https://github.com/kaiznanji/Shopify-Challenge-2022/tree/master/images/frontend.png" width=550 height=450/>
+  <img src="https://github.com/kaiznanji/Shopify-Challenge-2022/blob/master/images/frontend.pngraw=true" width=550 height=450/>
 </p>
 
 
