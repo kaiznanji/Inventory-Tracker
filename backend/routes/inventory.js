@@ -7,15 +7,6 @@ const { isNumeric } = require('../src/helper');
 const { VALID_KEYS, VALID_SORT_KEYS, TAGS } = require('../src/constants');
 
 
-// TODO: delete(just for testing)
-router.delete('/deleteDatabase', async (req, res) => {
-    await InventoryItem.deleteMany({},  () => {
-      console.log('collection removed')
-    })
-    return res.status(200).send()
-})
-
-
 // API Route Task: View a list of all current inventory items and sort or filter by query
 router.get('/', async (req, res) => {
     // initialize variables
