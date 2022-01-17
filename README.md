@@ -32,7 +32,7 @@ npm install
 npm start
 ```
 
-Make sure you navigate outside of the backend directory using ```cd ..``` before running the next commands:
+Make sure you start a new terminal in the project directory before running the next commands:
 
 To start the frontend server:
 ```bash
